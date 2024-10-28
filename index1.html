@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exponential Variables</title>
+</head>
+<body>
+  <h1>Exponential Variables</h1>
+  <div id="variables"></div>
+  
+  <script>
+    // Exponential Variables
+    let exponential1 = Math.pow(2, 3);  // 2^3
+    let exponential2 = Math.pow(5, 2);  // 5^2
+    let exponential3 = Math.exp(3);     // e^3
+    let exponential4 = Math.pow(10, 4); // 10^4
+    let exponential5 = Math.pow(3, 5);  // 3^5
+    
+    // Log variables to console
+    console.log('Exponential Variables:');
+    console.log(`2^3 = ${exponential1}`);
+    console.log(`5^2 = ${exponential2}`);
+    console.log(`e^3 = ${exponential3}`);
+    console.log(`10^4 = ${exponential4}`);
+    console.log(`3^5 = ${exponential5}`);
+    
+    // Display variables in browser
+    let html = '';
+    html += `<p>2^3 = ${exponential1}</p>`;
+    html += `<p>5^2 = ${exponential2}</p>`;
+    html += `<p>e^3 = ${exponential3}</p>`;
+    html += `<p>10^4 = ${exponential4}</p>`;
+    html += `<p>3^5 = ${exponential5}</p>`;
+    
+    document.getElementById('variables').innerHTML = html;
+  </script>
+</body>
+</html>
+
